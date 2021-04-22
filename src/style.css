@@ -1,0 +1,47 @@
+.HelpMom {  
+    height: 100px;
+    width: 100px;
+    display: block;
+    margin: auto
+  }
+  body {
+ font-family: Verdana;
+ 
+ }
+ 
+ button {
+   width: 30%;
+   margin-left: 20%;
+   text-align: center;
+   background-color: rgba(240, 128, 128, 0.829);
+ }
+ h1 {
+ background-color: lightblue;
+ text-align: center;
+ }
+ p {
+ text-align: justify
+ }
+ 
+ ul{
+   list-style: none;
+ }
+ a{
+   text-decoration: none;
+ }
+ 
+ li:hover{
+ background-color: lightgrey;
+ }
+ .enabled-trivia{
+   display: block;
+ }
+ .disabled-trivia{
+   display: none;
+ }
+ 
+ .buttonOptions {
+ display: none;
+
+ }
+ 

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>help mom</title>
+    <link href="style.css" rel="stylesheet" type="text/css">
+  </head>
+  <body>
+    <section id="seccionInicial"> 
+
+
+   <h1 class="titulo"><b>Trivia Help Mom </b></h1>
+   
+   <img class= "HelpMom" src="imagenes/img 1.jpg" alt="Logo Help Mom"></br> 
+
+   <p class="descripcionTrivia">Bienvenidas a la trivia de Help Mom un espacio dedicado a empatizarnos con los distintos problemas a los que nos enfrentamos día a día con nuestros niños y su aprendizaje académico. </p></br>
+   </section>
+   <section id="seccionMedia" class="segundaSección">
+
+  <label for="name">"Da en siguiente para escribir tu nombre":</label></br>
+  <button id="continue">siguiente</button>
+ <p id="greetings"></p>
+
+ <p class="DescripciónOpciones"> A continuacion tienes dos opciones "Conducta" y "Tareas", que refieren a aspectos diferentes con los cuales te podrás encontrar durante en el aprendizaje de tus hijos, selecciona una de ella para continuar. </p></br>
+   <ul>
+     <li><a href="https://e763a5e0-36ee-42cc-80ed-33223742b271.id.repl.co/#"><button id="buttonOptions"</a >Conducta</button></li>
+   </ul>
+   <nav id="opcs-trivia" class="disabled-trivia">
+<div id ="preguntas">
+  <article id="tabConducta" class= "contenido">
+</div>
+<div class="divTexto">
+   <h3> ¿Cómo lidiar con la desconcentración e implementos distractores? </h3>
+  <ul>
+    <button onclick="checkBtn('A')">Eliminando elementos distractores</button>
+    <button onclick="checkBtn('B')">Vigilando a cada instante al niño</button>
+    <button onclick="checkBtn('C')">Dando castigos constantes</button>
+    <button onclick="checkBtn('D')">Estableciendo las prioridades entre los dos</button>
+  </ul>
+  <h3> ¿Cuándo dar autonomía al niño? </h3>
+  <ul>
+    <button onclick="checkBtn('E')">Siempre</button>
+    <button onclick="checkBtn('F')">Nunca</button>
+    <button onclick="checkBtn('G')">Aveces</button>
+    <button onclick="checkBtn('H')">Solo cuando yo quiera</button>
+  </ul>
+  <h3> ¿Cómo lidiar con la frustración? </h3>
+  <ul>
+    <button onclick="checkBtn('I')">Descargándose con agresión hacia el niño</button>
+    <button onclick="checkBtn('J')">Aislandose del mundo</button>
+    <button onclick="checkBtn('K')">Haciendo ejercicios de respiración y pausa activa</button>
+    <button onclick="checkBtn('L')">Desentendiendo la necesidad del niño</button>
+  </ul>
+</div>
+</article>
+   </nav>
+   <ul>
+   <li><a href="https://e763a5e0-36ee-42cc-80ed-33223742b271.id.repl.co/#"><button id="buttonOptionstar"</a >Tareas</button></li>
+   </ul>
+  <nav id="opcs-tareas"class="disabled-trivia">
+<div>
+<article id="taTareas">
+</div>
+<div class="divTexto">
+  <h3> ¿Cuáles son los momentos para aclarar las dudas? </h3>
+  <ul>
+<button onclick="checkBtn('M')">Hay que estableces horarios</button>
+<button onclick="checkBtn('N')">Cualquier Momento es ideal</button>
+<button onclick="checkBtn('O')">Durante el almuerzo o la cena</button>
+<button onclick="checkBtn('P')">Solo los fines de semana</button>
+  </ul>
+  <h3> ¿Qué tanto apoyo debo darle al niño en las tareas? </h3>
+  <ul>
+<button onclick="checkBtn('Q')">Nunca debo ayudarle </button>
+<button onclick="checkBtn('R')">Debo hacerle la tarea</button>
+<button onclick="checkBtn('S')">Debo darle las herramientas para que lo pueda hacer </button>
+<button onclick="checkBtn('T')">Que le pida ayuda a un compañero</button>
+</ul>
+<h3> ¿En dónde puede investigar? </h3>
+  <ul>
+<button onclick="checkBtn('U')">Herramientas digitales </button>
+<button onclick="checkBtn('W')">Enciclopedias </button>
+<button onclick="checkBtn('X')">Bibliotecas </button>
+<button onclick="checkBtn('Y')">Todas las anteriores </button>
+</ul> 
+</div>
+</article>
+ </nav>
+ </section>
+    <script src="script.js"></script>
+  </body>
+</html>
+
+
+
+ 
